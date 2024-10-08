@@ -2,10 +2,12 @@
   "name": "spotify-app",
   "version": "1.0.0",
   "description": "Poking around the Spotify API",
+  "type": "module",
   "main": "index.ts",
   "scripts": {
     "dev": "vite",
-    "node": "nodemon --watch server --exec ts-node server/server.ts"
+    "node": "nodemon --watch server --exec ts-node server/server.ts",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
